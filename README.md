@@ -11,7 +11,7 @@ Time series forecasting project focused on US macroeconomic indicators and infla
 - `modeling_us_inflation_forecasting_rolling_diagnostics.ipynb`: modeling and diagnostics
 - `model_outputs_rolling/`: model configs, forecasts, and diagnostics
 - `check_missing_months.py`: helper to validate monthly continuity
-- `Paper/` and `REPORT/`: writing artifacts
+- `Paper/` and `REPORT/`: Paper: Ref, REPORT: PDF report demo
 
 ## Quick Start
 
