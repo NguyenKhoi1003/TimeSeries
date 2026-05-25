@@ -1,0 +1,22 @@
+{
+  "start_date": "1990-01-01",
+  "end_date": "2026-04-01",
+  "train_end": "2018-12-01",
+  "test_start": "2019-01-01",
+  "max_ml_lag": 12,
+  "var_max_lags": 8,
+  "run_seasonal_models": true,
+  "run_xgboost": true,
+  "model_data_shape": [
+    424,
+    4
+  ],
+  "train_shape": [
+    336,
+    4
+  ],
+  "test_shape": [
+    88,
+    4
+  ]
+}

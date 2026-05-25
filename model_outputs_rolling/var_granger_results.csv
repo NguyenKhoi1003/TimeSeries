@@ -1,0 +1,2 @@
+test,p_value,conclusion_5pct,selected_var_lag
+UNRATE does not Granger-cause inflation,0.503438532428961,Fail to reject H0,2

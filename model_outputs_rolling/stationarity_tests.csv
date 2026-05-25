@@ -1,0 +1,5 @@
+Variable,ADF Statistic,ADF p-value,ADF Used Lag,ADF n_obs,ADF Conclusion 5pct,KPSS Statistic,KPSS p-value,KPSS Used Lag,KPSS Conclusion 5pct,Combined Conclusion
+Inflation,-3.4711703343271103,0.008759115842092083,16,319,Reject unit root,0.7786248023611625,0.01,10,Reject stationarity,Mixed evidence
+Unemployment Rate,-2.4953600906646356,0.11660735039866144,6,329,Fail to reject unit root,0.2738205373406937,0.1,11,Fail to reject stationarity,Mixed evidence
+Federal Funds Rate,-2.032990501624096,0.2722978162998281,11,324,Fail to reject unit root,1.8241749943455718,0.01,11,Reject stationarity,Likely non-stationary
+Industrial Production Growth,-3.036758146748481,0.03160134244864317,15,320,Reject unit root,0.34810619084194283,0.09952319360261085,11,Fail to reject stationarity,Likely stationary

@@ -1,0 +1,2 @@
+selected_var_lag,is_stable,min_root_modulus,max_root_modulus,note
+2,True,1.0129562128601042,4.963227650217856,statsmodels VAR is stable when is_stable() returns True
