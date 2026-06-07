@@ -1,0 +1,9 @@
+Model,Predictors,MAE,RMSE,N,Order,Seasonal_Order,Alpha,Rank_by_RMSE
+Naive,inflation_lag_1,0.3080076390683528,0.4200442332779076,88,,,,1
+Ridge,48 lagged macro features,0.5247390750588183,0.7880069531876401,88,,,1.7912844546220021,2
+XGBoost,48 lagged macro features,1.04056640025862,1.7421642008344596,88,,,,3
+ARIMAX,"inflation history + lagged UNRATE, FEDFUNDS, IP_growth",1.492751519217865,2.4081617235589605,88,"(3, 1, 3)",,,4
+ARIMA,inflation history only,1.712887184631266,2.4928935183380165,88,"(3, 0, 2)",,,5
+SARIMA,inflation history only + seasonal component,1.8381879407855697,2.619049556143128,88,"(0, 1, 1)","(1, 0, 0, 12)",,6
+VAR,"inflation, UNRATE, FEDFUNDS, IP_growth",1.9337269096135672,2.7393947995078256,88,VAR(2),,,7
+SARIMAX,inflation history + lagged macro predictors + seasonal component,1.9720468054937355,3.0149923166290065,88,"(1, 0, 2)","(1, 0, 0, 12)",,8

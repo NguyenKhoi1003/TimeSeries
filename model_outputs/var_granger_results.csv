@@ -1,0 +1,2 @@
+Null Hypothesis,Test Statistic,p-value,Conclusion at 5%
+UNRATE does not Granger-cause inflation,0.6866560893081557,0.503438532428961,Fail to reject H0
